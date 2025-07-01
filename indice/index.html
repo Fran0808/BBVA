@@ -8,22 +8,26 @@
     <link rel="stylesheet" href="estilo_index.css">
 </head>
 
-<body>
-    <main class="principal">
-        <h1>Interfaz de Autenticación</h1>
-        <div class="form-container">
+<body>    
+    <main class="principal">                
+        <div class="lado-izquierdo">
+            <img src="../imagenes/BBVA.png" alt="Logo de BBVA" class="logo">
+            <p>Bienvenido a la interfaz de autenticación del Banco BBVA. Por favor, ingresa tus credenciales para acceder a tu cuenta.</p>
+        </div>
+        <div class="lado-derecho">
+            <h2>Iniciar Sesión</h2>
             <form class="formulario" action="" method="post">
                 <div class="campo">
                     <label class="custom-label" for="numero-tarjeta">Número de tarjeta</label>
-                    <input type="number" id="numero-tarjeta" name="numero-tarjeta" required>
+                    <input type="number" id="numero-tarjeta" name="numero-tarjeta">
                 </div>
                 <br>
                 <div class="campo">
                     <label class="custom-label" for="clave">Clave de acceso</label>
                     <input type="password" id="clave" name="clave" required>
                 </div>
-                <button type="submit">Ingresar</button>
-            </form>
+                <button type="button" onclick="location.href='../apartado/apartado.html'">Ingresar</button>
+            </form>            
         </div>
     </main>
 </body>

@@ -6,3 +6,40 @@ html, body {
     background-color: #fff;
     color: #222;
 }
+body, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px; /* Espacio entre botones */
+}
+
+.botones button {
+    background-color: #002b8c;
+    color: #fff;
+    font-size: 20px;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: background 0.2s;
+    margin: 0;
+    display: inline-block;
+}
+
+.botones button:hover {
+    background-color: #001f5c;
+}
