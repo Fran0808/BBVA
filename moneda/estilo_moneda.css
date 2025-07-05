@@ -1,0 +1,69 @@
+.btn-cuenta {
+    display: block;
+    margin: 0 auto 40px auto;
+    background-color: #002b8c; /* Azul BBVA */
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 3em 2em;
+    box-shadow: 0 2px 8px #0002;
+    width: 260px;
+    text-align: left;
+    transition: background 0.2s;
+    text-align: center;
+
+}
+
+.btn-cuenta:hover {
+     background-color: #002b8c;
+}
+
+.btn-volver {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    left: auto;
+    background-color: #002b8c;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 0.7em 2em;
+    box-shadow: 0 2px 8px #0002;
+    transition: background 0.2s;
+    z-index: 10;
+}
+
+.btn-volver:hover {
+     background-color: #002b8c;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuentas-titulo {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: bold;
+}
+.subtitulo {
+    color: #0f2d63;
+    font-size: 1.1em; /* Cambia este color al que prefieras */
+}
+.titulo {
+    color: #0f2d63;
+    font-size: 1.3em; 
+    font-weight: bold;
+}
